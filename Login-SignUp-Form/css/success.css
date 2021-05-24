@@ -1,0 +1,67 @@
+body, html {
+	/*background: linear-gradient(-45deg, #ee7752, #2c3e50, #23a6d5, #434343);*/
+    background-color: thistle;
+
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+    /*overflow-y: scroll;*/
+    height: 100%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.header h1{
+    font-size: 50px;
+    font-family: Montserrat;
+}
+.row {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+
+
+
+.card{
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 45px;
+    color:white;
+    background-color: white;
+    width:20rem;
+    height: 20rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.card-subtitle{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.card-link{
+    color: slategray;
+
+}
+#card-img{
+    height:150px;
+}

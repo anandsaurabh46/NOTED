@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(30, 56, 112);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.count_users{
+    font-size: x-large;
+    margin-left: 3%;
+}
+
+
+#input_area {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
