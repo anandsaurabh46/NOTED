@@ -34,6 +34,8 @@ Technologies Used:
 •	Express.js
 •	MongoDB
 
+Team Name - Pentagon
+
 Team Members
 •	Simran Garg - 205120103                  
 •	Saurabh Anand - 205120092
